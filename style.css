@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}
+.headere h1{
+    margin-left: 45%;
+    margin-right: 45%;
+    cursor: pointer;
+    color: greenyellow;
+}
+.headere p{
+    margin-left: 35%;
+    margin-top: 10px;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.product h1{
+    margin-left: 40%;
+    margin-right: 43%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid;
+    padding-left: 19px;
+}
+.product img{
+    width: 30%;
+    height: 40%;
+    margin-left: 25px;
+    margin-right: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.product img:hover{
+    background-color: rgb(183, 233, 108);
+}
+.visit{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-left: 45%;
+    margin-right: 45%;
+    border: 1px solid ;
+    border-radius: 10px;
+    padding: 10px 10px;
+    transition: 0.5s;
+}
+.visit:hover{
+    background-color: rgb(183, 233, 108);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(183, 233, 108);
+}
+.logo{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.logo:hover{
+    color: #000;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li{
+    list-style: none;
+    border-radius: 20px;
+    padding: 6px 6px;
+    transition: 0.5s;
+}
+.nav-links li:hover{
+    background-color: rgb(30, 212, 30);
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.fh{
+    margin-top: 50px;
+}
+
+    /*----All Product----*/
+
+
+.all-product{
+    margin-left: 41%;
+    margin-right: 43%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 2px solid;
+    padding-left: 19px;
+}
+.all-col img{
+    width: 30%;
+    height: 40%;
+    margin-left: 34%;
+    margin-right: 34%;
+    margin-top: 40px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 10px;    
+    transition: 1s;
+}
+.all-col img:hover{
+    background-color: rgb(128, 189, 128);
+}
+.all-col p{
+    margin-left: 43%;
+    font-size: 25px;
+}
+.stars{
+    margin-left: 45%;
+    margin-right: 35%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(30, 212, 30);
+}
+.btn {
+    margin-left: 45%;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+}
+.btn:hover{
+    color: #000;
+    background-color: rgb(30, 212, 30);
+}
+
+    /*----revives----*/
+
+.row-2{
+    display: flex;
+    align-items: center;
+}
+
+
+.col-3 img{
+    width: 15%;
+    height: 100%;
+    border-radius: 50%;
+    margin-left: 41%;
+    border: 0;
+}
+.col-3 p{
+    font-size: 17px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.col-3{
+    border: 1px solid;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    padding: 10px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.col-3:hover{
+    background-color: rgb(146, 231, 146);
+    border: none;
+}
+
+    
